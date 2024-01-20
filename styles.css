@@ -1,0 +1,201 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#logo {
+	background-color: white;
+}
+
+.fixed-header {
+	top: 0;
+	position: fixed;
+	margin: auto;
+	column-count: 3;
+	width: 100%;
+	padding: 10px 0;
+	background: burlywood;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(100, 100, 100, 0.5);
+}
+
+.socials {
+	column-count: 4;
+	padding-top: 14px;
+}
+
+body {
+	background-color: burlywood;
+	padding-top: 50px;
+}
+
+h2 {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.main {
+    margin: auto;
+	margin-bottom: 20px;
+	font-family: 'Times New Roman', serif;
+	letter-spacing: 1px;
+    max-width: 1000px;
+    width: 80%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(100, 100, 100, 0.5);
+}
+
+.main header {
+	margin: auto;
+	text-align: center;
+}
+
+.main header h3 {
+	margin: auto;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+nav {
+    background-color: white;
+    padding: 10px;
+ }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.introduction {
+	height: auto;
+	column-count: 2;
+	column-gap: 40px;
+	padding: 20px;
+    justify-content: space-between;
+}
+
+.introduction p {
+	text-align: justify;
+}
+
+#about hr {
+	background-color: #f2f2f2;
+	width: 10%
+}
+
+.about_info {
+	height: auto;
+	column-count: 2;
+	column-gap: 40px;
+	padding: 20px;
+    justify-content: space-between;
+}
+
+img.pro_pic {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_info p {
+	text-align: justify;
+}
+
+.about_education {
+	column-rule: 1px solid gray;
+	padding: 20px;
+	text-align: center;
+	column-count: 2;
+}
+
+.about_accomplishments {
+	column-rule: 1px solid gray;
+	padding: 20px;
+	text-align: center;
+	column-count: 3;
+}
+
+.about_skills {
+	column-rule: 1px solid gray;
+	padding: 20px;
+	text-align: center;
+	column-count: 3;
+}
+
+.experience {
+	column-rule: 1px solid gray;
+	padding: 20px;
+	text-align: center;
+	column-count: 3;
+}
+
+.experience_language {
+	display: flex;
+	text-align: center;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+.documentation {
+	padding: 20px;
+	text-align: center;
+}
+
+.column {
+    flex: 1;
+    max-width: 33%;
+}
+
+.button {
+	padding: 20px;
+	text-align: center;
+}
+
+.button a {
+	background-color: #e6e6e6;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.contacts {
+	padding: 20px;
+	text-align: center;
+	column-rule: 1px solid gray;
+	column-count: 2;
+}
+
+.contacts_socials {
+	margin-left: 46%;
+	column-count: 4;
+	padding-top: 20px;
+}
+
+
+.copyright {
+	text-align: center;
+}
